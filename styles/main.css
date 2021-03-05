@@ -1,0 +1,23 @@
+#containment-wrapper{
+	width:1000px;
+	height:1000px;
+}
+
+.item{
+	position:absolute;
+	width:50px;
+}
+.avatars{
+	position:absolute;
+	top:700px;
+}
+.avatar{
+	width:200px;
+}
+.wide-avatar{
+	width:250px;
+}
+.background{
+	position:absolute;
+	width:1200px;
+}
