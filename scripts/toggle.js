@@ -13,3 +13,17 @@ function changeBackground(){
 		backgroundCounter=0;
 	}
 }
+
+var transformCounter=0;
+
+function changeAvatar(idString){
+	element=document.getElementById(idString);
+	if (transformCounter==0){
+		element.src="assets/avatars/"+idString+"-2.png";
+		transformCounter++;
+	} else if (transformCounter==1){
+		element.src="assets/avatars/"+idString+".png";
+		transformCounter=0;
+	}
+}
+
